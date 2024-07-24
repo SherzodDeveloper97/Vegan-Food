@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "HanaleiFill";
+    src: url("./HanaleiFill-Regular.woff") format("woff");
+}
+
+@font-face{
+    font-family: "playfairdisplay";
+    src: url("./playfairdisplay-variablefont_wght-webfont.woff") format("woff"),
+    url("./playfairdisplay-variablefont_wght-webfont.woff2") format("woff2");
+}

@@ -32,7 +32,7 @@ nav {
       color: #737373;
       transition: color 0.25s linear;
       font-weight: 600;
-      font-family: "HanaleiFill",sans-serif; }
+      font-family: "HanaleiFill", sans-serif; }
       nav .menu-list .menu-list--item a:hover {
         color: #000; }
 
@@ -56,5 +56,49 @@ nav {
     width: 100%;
     height: 2px;
     background-color: #ccc; }
+
+main {
+  margin-bottom: 100px; }
+  main .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 20px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px; }
+  .cards .card {
+    height: 570px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative; }
+    .cards .card .card-image {
+      width: 100%; }
+    .cards .card .card-shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      opacity: 0;
+      transition: all 0.25s linear; }
+      .cards .card .card-shadow p {
+        color: #fff;
+        width: 45%;
+        font-size: 20px;
+        text-align: center; }
+    .cards .card:hover .card-shadow {
+      opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */

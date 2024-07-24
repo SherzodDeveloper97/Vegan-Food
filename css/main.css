@@ -17,8 +17,8 @@ nav, nav .menu-list {
   align-items: center; }
 
 nav {
-  justify-content: space-around;
-  padding: 15px 0; }
+  justify-content: space-between;
+  padding: 15px 80px; }
   nav .logo {
     width: 150px; }
   nav .menu-list .menu-list--item {
@@ -100,5 +100,14 @@ main {
         text-align: center; }
     .cards .card:hover .card-shadow {
       opacity: 1; }
+
+footer {
+  margin-bottom: 50px; }
+  footer p {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px; }
+    footer p span {
+      color: #999999; }
 
 /*# sourceMappingURL=main.css.map */

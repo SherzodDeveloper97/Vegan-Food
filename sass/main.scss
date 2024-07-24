@@ -22,8 +22,8 @@ body {
 // header - styles
 nav {
   @extend %flex;
-  justify-content: space-around;
-  padding: 15px 0;
+  justify-content: space-between;
+  padding: 15px 80px;
   .logo {
     width: 150px;
   }
@@ -130,4 +130,17 @@ main {
         }
     }
   }
+}
+
+// footer - styles
+footer{
+    margin-bottom: 50px;
+    p{
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 1px;
+        span{
+            color: #999999;
+        }
+    }
 }

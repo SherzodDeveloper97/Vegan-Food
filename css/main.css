@@ -9,8 +9,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  border: 2px solid red; }
+  margin: 0 auto; }
 
 nav, nav .menu-list {
   display: flex;
@@ -58,7 +57,7 @@ nav {
     background-color: #ccc; }
 
 main {
-  margin-bottom: 100px; }
+  margin-bottom: 70px; }
   main .title {
     text-transform: uppercase;
     text-align: center;
@@ -109,5 +108,55 @@ footer {
     letter-spacing: 1px; }
     footer p span {
       color: #999999; }
+
+@media (max-width: 1210px) {
+  .container {
+    padding: 0 20px; } }
+@media (max-width: 992px) {
+  nav {
+    padding: 15px 40px; }
+
+  .cards .card {
+    height: 450px; } }
+@media (max-width: 768px) {
+  .cards .card {
+    height: 420px; }
+
+  nav .menu-list .menu-list--item:not(:last-child) {
+    margin-right: 15px; }
+
+  footer p {
+    width: 80%;
+    margin: 0 auto; } }
+@media (max-width: 680px) {
+  nav .menu-list .menu-list--item a {
+    font-size: 16px; } }
+@media (max-width: 576px) {
+  nav {
+    flex-direction: column; }
+    nav .menu-list {
+      margin-top: 20px; }
+
+  .hero-section {
+    width: 90%; }
+    .hero-section .hero-title {
+      font-size: 40px; }
+
+  .cards {
+    grid-template-columns: auto; }
+    .cards .card {
+      height: 400px; } }
+@media (max-width: 350px) {
+  nav .menu-list .menu-list--item a {
+    font-size: 14px; }
+
+  .hero-section .hero-parag {
+    font-size: 14px; }
+
+  main {
+    margin-bottom: 60px; }
+
+  footer p {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=main.css.map */
